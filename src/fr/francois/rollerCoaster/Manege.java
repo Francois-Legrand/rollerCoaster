@@ -3,8 +3,6 @@ package fr.francois.rollerCoaster;
 import java.util.ArrayList;
 import java.util.List;
 
-
-
 public class Manege {
 	private ArrayList<Visiteur> place = new ArrayList<Visiteur>();
 	private int tours;

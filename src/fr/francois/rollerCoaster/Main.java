@@ -27,8 +27,12 @@ public class Main {
 		System.out.println(manege.getPlace()+" place");
 		
 		manege.demarrer();
+		System.out.println("On descend!");
 		manege.descendreDuManege();
+		System.out.println("Etat des places du manège");
 		System.out.println(manege.getPlace()+" place");
+		System.out.println("File d'attente après descendu du manège");
+		System.out.println(manege.getFileDattente() +" file");
 		manege.gain();
 		
 		manege.monterDansLeManege();
@@ -42,41 +46,12 @@ public class Main {
 		System.out.println("C'est parti pour un tour!");
 		System.out.println("On descend!");
 		manege.descendreDuManege();
-		System.out.println(manege.getPlace()+" place");
-		System.out.println("Etat de la file");
-		System.out.println(manege.getFileDattente()+" place");
-		manege.gain();
-		
-		manege.monterDansLeManege();
-		
-		System.out.println("File d'attente après être monter dans le manège");
-		System.out.println(manege.getFileDattente() +" file");
 		System.out.println("Etat des places du manège");
 		System.out.println(manege.getPlace()+" place");
-		
-		manege.demarrer();
-		System.out.println("C'est parti pour un tour!");
-		System.out.println("On descend!");
-		manege.descendreDuManege();
-		System.out.println(manege.getPlace()+" place");
 		System.out.println("Etat de la file");
-		System.out.println(manege.getFileDattente()+" place");
+		System.out.println(manege.getFileDattente()+" file");
 		manege.gain();
 		
-		manege.monterDansLeManege();
-		
-		System.out.println("File d'attente après être monter dans le manège");
-		System.out.println(manege.getFileDattente() +" file");
-		System.out.println("Etat des places du manège");
-		System.out.println(manege.getPlace()+" place");
-		
-		manege.demarrer();
-		System.out.println("On descend!");
-		manege.descendreDuManege();
-		System.out.println(manege.getPlace()+" place");
-		System.out.println("Etat de la file");
-		System.out.println(manege.getFileDattente()+" place");
-		manege.gain();
 		
 	}
 
