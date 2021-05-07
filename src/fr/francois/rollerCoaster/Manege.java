@@ -103,7 +103,7 @@ public class Manege {
 	 * 
 	 */
 	public List<Visiteur> descendreDuManege() {
-		if(tours > 3) {
+		if(tours > 4) {
 			
 			return fileDattente;
 		}else {
