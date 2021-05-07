@@ -35,6 +35,9 @@ public class Main {
 		System.out.println(manege.getFileDattente() +" file");
 		manege.gain();
 		
+		System.out.println("File d'attente avant de monter dans le manège");
+		System.out.println(manege.getFileDattente());
+		
 		manege.monterDansLeManege();
 		
 		System.out.println("File d'attente après être monter dans le manège");
@@ -43,13 +46,12 @@ public class Main {
 		System.out.println(manege.getPlace()+" place");
 		
 		manege.demarrer();
-		System.out.println("C'est parti pour un tour!");
 		System.out.println("On descend!");
 		manege.descendreDuManege();
 		System.out.println("Etat des places du manège");
 		System.out.println(manege.getPlace()+" place");
-		System.out.println("Etat de la file");
-		System.out.println(manege.getFileDattente()+" file");
+		System.out.println("File d'attente après descendu du manège");
+		System.out.println(manege.getFileDattente() +" file");
 		manege.gain();
 		
 		
